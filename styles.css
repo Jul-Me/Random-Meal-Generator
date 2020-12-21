@@ -1,11 +1,14 @@
 .container {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.mealContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 50%;
 }
 
 .indexText {
@@ -22,13 +25,14 @@
   border-color: transparent;
   background: rgb(247, 183, 65);
   box-shadow: 2px 2px 1px #888888;
+  margin-bottom: 20px;
 }
 
 .foodLogo {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 50%;
-  padding-bottom: 50%;
+  width: 20%;
+  padding-bottom: 20%;
   border-radius: 300px;
 }
